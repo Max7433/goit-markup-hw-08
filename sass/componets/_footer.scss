@@ -1,0 +1,141 @@
+/* footer */
+.footer {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--backroundcolor-secondari);
+}
+
+footer-list {
+    padding-right: 0px;
+}
+
+.footer-list:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-address {
+    margin-top: 20px;
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo-web {
+    color: var(--accent-color);
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.logoweb:hover,
+.logoweb:focus {
+    color: var(--accent-color);
+    transition: color var(--timing);
+}
+
+.logo-footer:hover,
+.logo-foote:focus {
+    color: var(--accent-color);
+    transition: color var(--timing);
+}
+
+.footer-list__nav {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+
+.footer-list__gmaps {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--fontcolor);
+}
+
+.footer-list__nav:hover,
+.footer-list__nav:focus {
+    color: var(--accent-color);
+    transition: color var(--timing);
+}
+
+.footer-list__gmaps:hover,
+.footer-list__gmaps:focus {
+    color: var(--accent-color);
+    transition: color var(--timing);
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.social__main {
+    margin-left: 70px;
+    align-items: baseline;
+}
+
+.social__footer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social__link-team {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    fill: var(--backgroundcolor-header);
+}
+
+.social__link-team:hover,
+.social__link-team:focus {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    transition: background-color var(--timing);
+}
+
+.social__link-team:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social__main-headlines {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: end;
+    color: #FFFFFF;
+}
+.footer-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--fontcolor);
+}
+
+
+

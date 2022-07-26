@@ -1,0 +1,57 @@
+/* team ready */
+.team__list {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team__headlines {
+    margin-bottom: 50px;
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--fontcolor-secondary);
+}
+
+.team__list-card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team {
+    background-color: #F5F4FA
+}
+
+.team__list-card {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--fontcolor-secondary);
+    background-color: var(--backgroundcolor-header);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team__article-head {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team__article-skill {
+    padding-top: 10px;
+    font-weight: 400;
+    color: var(--fontcolor-main);
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+

@@ -1,0 +1,41 @@
+/* section-peculiarities ready */
+.peculiarities__list {
+    display: flex;
+    margin: 0 auto;
+}
+
+.peculiarities__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.peculiarities__item-svg {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.peculiarities__item-titel {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+    vertical-align: top;
+    color: var(--fontcolor-secondary);
+    letter-spacing: 0.03em;
+    text-align: left;
+    background-color: var(--backgroundcolor-header);
+}
+
+.peculiarities__item-text {
+    color: var(--fontcolor-main);
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    font-weight: 400;
+    text-transform: none;
+}
