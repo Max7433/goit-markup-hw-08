@@ -889,7 +889,6 @@ section {
     margin-right: auto;
   }
   .peculiarities__item-svg {
-    width: 270px;
     height: 120px;
     margin-bottom: 30px;
     display: -webkit-box;
@@ -931,7 +930,6 @@ section {
     gap: 30px;
   }
   .peculiarities__item-svg {
-    width: 270px;
     height: 120px;
     margin-bottom: 30px;
     display: -webkit-box;
