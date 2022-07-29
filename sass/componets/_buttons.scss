@@ -50,6 +50,7 @@
     letter-spacing: 0.06em;
     color: var(--fontcolor);
 }
+
 /* buttons */
 .work-btn {
     margin-left: auto;
@@ -83,32 +84,69 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     transition: background-color var(--timing);
 }
-.btn-footer {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-left: 29px;
-    top: 17px;
-    right: -60%;
-    transform: translateY(35%);
-    width: 200px;
-    height: 50px;
-    background: #2196F3;
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-.form-svg-footer {
-    margin-left: 10px;
-    fill: var(--backgroundcolor-header);
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    .btn-footer {
+        // position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-left: 29px;
+        top: 17px;
+        right: -60%;
+        transform: translateY(35%);
+        width: 200px;
+        height: 50px;
+        background: #2196F3;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+
+    .form-svg-footer {
+        margin-left: 10px;
+        fill: var(--backgroundcolor-header);
+    }
+
+    .btn-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+    }
 }
 
-.btn-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+@media screen and (min-width: 1200px) {
+    .btn-footer {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-left: 29px;
+        top: 17px;
+        right: -60%;
+        transform: translateY(35%);
+        width: 200px;
+        height: 50px;
+        background: #2196F3;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+
+    .form-svg-footer {
+        margin-left: 10px;
+        fill: var(--backgroundcolor-header);
+    }
+
+    .btn-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+    }
 }
