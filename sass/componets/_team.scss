@@ -1,7 +1,4 @@
 /* team ready */
-// .team__list {
-// 	// margin: auto;
-// }
 
 .team__headlines {
 	margin-bottom: 50px;
@@ -52,13 +49,12 @@
 @media screen and (min-width: 480px) and (max-width:767px) {
 	.team__list {
 		margin: auto;
-		// max-width: 354px;
 	}
 
 	.team__headlines {
 		margin-bottom: 50px;
 		font-style: 700;
-		font-size: 36px;
+		font-size: 28px;
 		line-height: 1.2;
 		letter-spacing: 0.03em;
 		text-align: center;

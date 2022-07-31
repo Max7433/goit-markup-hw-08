@@ -56,30 +56,27 @@ section {
 }
 
 /* div container styles */
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 480px) {
   .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 448px;
   }
 }
 @media screen and (min-width: 767px) {
   .container {
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 720px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1200px;
   }
 }
 .logo {
