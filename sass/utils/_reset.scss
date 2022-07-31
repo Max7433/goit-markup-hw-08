@@ -4,6 +4,7 @@ body {
 	font-size: 14px;
 	letter-spacing: 0.03em;
 	color: var(--fontcolor-main);
+
 }
 
 /* reset styles */
@@ -33,9 +34,11 @@ li {
 }
 
 section {
+	outline: solid 1px tomato;
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
+
 
 /* div container styles */
 @media screen and (max-width: 480px) {
@@ -48,9 +51,13 @@ section {
 	}
 }
 
+* {
+	outline: solid 1px tomato;
+}
+
 @media screen and (min-width: 768px) {
 	.container {
-		max-width: 720px;
+		width: 720px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 15px;
@@ -60,7 +67,7 @@ section {
 
 @media screen and (min-width: 1200px) {
 	.container {
-		max-width: 1200px;
+		width: 1200px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 15px;
