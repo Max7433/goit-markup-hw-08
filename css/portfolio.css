@@ -47,26 +47,24 @@ li {
 }
 
 section {
-  outline: solid 1px tomato;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
+* {
+  outline: solid 1px tomato;
+}
+
 /* div container styles */
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .container {
-    max-width: 448px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-* {
-  outline: solid 1px tomato;
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .container {
     width: 720px;
     margin-left: auto;

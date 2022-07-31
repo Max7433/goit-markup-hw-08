@@ -1,10 +1,67 @@
 /* regular-customer */
+.cliet-headlines {
+	margin-bottom: 50px;
+	font-style: 700;
+	font-size: 36px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: var(--fontcolor-secondary);
+}
+
+.client-list {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.client-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// width: 170px;
+	height: 92px;
+	fill: #afb1b8;
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+}
+
+.client-item:focus {
+	border: 1px solid var(--accent-color);
+	transition: border var(--timing);
+}
+
+.client-item:hover {
+	border: 1px solid var(--accent-color);
+	transition: border var(--timing);
+}
+
+.client-item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.client-item__link {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	fill: #afb1b8;
+}
+
+.client-item__link:focus,
+.client-item__link:hover {
+	fill: var(--accent-color);
+	transition: fill var(--timing);
+}
+
 @media screen and (max-width: 767px) {
 	.client-list {
 		display: grid;
 		grid-template-columns: auto auto;
 		gap: 30px;
 	}
+
 	.client-item {
 		display: flex;
 		align-items: center;
@@ -15,6 +72,7 @@
 		border: 1px solid #afb1b8;
 		border-radius: 4px;
 	}
+
 	.client-item:focus {
 		border: 1px solid var(--accent-color);
 		transition: border var(--timing);
@@ -24,6 +82,7 @@
 		border: 1px solid var(--accent-color);
 		transition: border var(--timing);
 	}
+
 	.cliet-headlines {
 		margin-bottom: 50px;
 		font-style: 700;
@@ -33,6 +92,7 @@
 		text-align: center;
 		color: var(--fontcolor-secondary);
 	}
+
 	.client-item__link {
 		display: flex;
 		width: 100%;
@@ -48,12 +108,14 @@
 		transition: fill var(--timing);
 	}
 }
+
 @media screen and (min-width: 767px) and (max-width: 1200px) {
 	.client-list {
 		display: grid;
 		grid-template-columns: auto auto auto;
 		gap: 30px;
 	}
+
 	.client-item {
 		display: flex;
 		align-items: center;
@@ -64,6 +126,7 @@
 		border: 1px solid #afb1b8;
 		border-radius: 4px;
 	}
+
 	.client-item:focus {
 		border: 1px solid var(--accent-color);
 		transition: border var(--timing);
@@ -73,6 +136,7 @@
 		border: 1px solid var(--accent-color);
 		transition: border var(--timing);
 	}
+
 	.cliet-headlines {
 		margin-bottom: 50px;
 		font-style: 700;
@@ -82,6 +146,7 @@
 		text-align: center;
 		color: var(--fontcolor-secondary);
 	}
+
 	.client-item__link {
 		display: flex;
 		width: 100%;
