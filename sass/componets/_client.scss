@@ -1,8 +1,8 @@
 /* regular-customer */
-.cliet-headlines {
+.client-headlines {
 	margin-bottom: 50px;
 	font-style: 700;
-	// font-size: 28px;
+	font-size: 28px;
 	line-height: 1.2;
 	letter-spacing: 0.03em;
 	text-align: center;
@@ -16,7 +16,6 @@
 }
 
 .client-item {
-
 	height: 92px;
 	fill: #afb1b8;
 	border: 1px solid #afb1b8;
@@ -57,24 +56,6 @@
 		gap: 30px;
 	}
 
-	.client-item {
-
-		height: 92px;
-		fill: #afb1b8;
-		border: 1px solid #afb1b8;
-		border-radius: 4px;
-	}
-
-	.client-item:focus {
-		border: 1px solid var(--accent-color);
-		transition: border var(--timing);
-	}
-
-	.client-item:hover {
-		border: 1px solid var(--accent-color);
-		transition: border var(--timing);
-	}
-
 	.client-item__link {
 		display: flex;
 		width: 100%;
@@ -84,11 +65,7 @@
 		fill: #afb1b8;
 	}
 
-	.client-item__link:focus,
-	.client-item__link:hover {
-		fill: var(--accent-color);
-		transition: fill var(--timing);
-	}
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
@@ -106,36 +83,11 @@
 		border: 1px solid #afb1b8;
 		border-radius: 4px;
 	}
-
-	.client-item:focus {
-		border: 1px solid var(--accent-color);
-		transition: border var(--timing);
-	}
-
-	.client-item:hover {
-		border: 1px solid var(--accent-color);
-		transition: border var(--timing);
-	}
-
-	.client-item__link {
-		display: flex;
-		width: 100%;
-		height: 100%;
-		justify-content: center;
-		align-items: center;
-		fill: #afb1b8;
-	}
-
-	.client-item__link:focus,
-	.client-item__link:hover {
-		fill: var(--accent-color);
-		transition: fill var(--timing);
-	}
 }
 
 @media screen and (min-width: 1200px) {
 
-	.cliet-headlines {
+	.client-headlines {
 		font-style: 700;
 		font-size: 36px;
 		line-height: 1.2;
@@ -162,28 +114,5 @@
 		border-radius: 4px;
 	}
 
-	.client-item:focus {
-		border: 1px solid var(--accent-color);
-		transition: border var(--timing);
-	}
 
-	.client-item:hover {
-		border: 1px solid var(--accent-color);
-		transition: border var(--timing);
-	}
-
-	.client-item__link {
-		display: flex;
-		width: 100%;
-		height: 100%;
-		justify-content: center;
-		align-items: center;
-		fill: #afb1b8;
-	}
-
-	.client-item__link:focus,
-	.client-item__link:hover {
-		fill: var(--accent-color);
-		transition: fill var(--timing);
-	}
 }
