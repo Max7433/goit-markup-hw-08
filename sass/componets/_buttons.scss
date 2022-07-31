@@ -85,6 +85,37 @@
     transition: background-color var(--timing);
 }
 
+/* buttons footer */
+.btn-footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 29px;
+    top: 17px;
+    right: -60%;
+    transform: translateY(35%);
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.form-svg-footer {
+    margin-left: 10px;
+    fill: var(--backgroundcolor-header);
+}
+
+.btn-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
 @media screen and (min-width: 767px) and (max-width: 1200px) {
     .btn-footer {
         // position: absolute;
