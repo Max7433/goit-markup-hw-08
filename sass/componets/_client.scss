@@ -2,7 +2,7 @@
 .cliet-headlines {
 	margin-bottom: 50px;
 	font-style: 700;
-	font-size: 28px;
+	// font-size: 28px;
 	line-height: 1.2;
 	letter-spacing: 0.03em;
 	text-align: center;
@@ -50,15 +50,6 @@
 
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-	.cliet-headlines {
-		margin-bottom: 50px;
-		font-style: 700;
-		font-size: 28px;
-		line-height: 1.2;
-		letter-spacing: 0.03em;
-		text-align: center;
-		color: var(--fontcolor-secondary);
-	}
 
 	.client-list {
 		display: grid;
@@ -101,15 +92,6 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1200px) {
-	.cliet-headlines {
-		margin-bottom: 50px;
-		font-style: 700;
-		font-size: 28px;
-		line-height: 1.2;
-		letter-spacing: 0.03em;
-		text-align: center;
-		color: var(--fontcolor-secondary);
-	}
 
 	.client-list {
 		display: grid;
@@ -152,14 +134,12 @@
 }
 
 @media screen and (min-width: 1200px) {
+
 	.cliet-headlines {
-		margin-bottom: 50px;
 		font-style: 700;
 		font-size: 36px;
 		line-height: 1.2;
-		letter-spacing: 0.03em;
-		text-align: center;
-		color: var(--fontcolor-secondary);
+
 	}
 
 	.client-list {
