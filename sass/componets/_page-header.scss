@@ -40,8 +40,7 @@
 
     .header-list__adress {
         margin-left: 44px;
-        padding-bottom: 32px;
-        padding-top: 32px;
+        padding-top: 21px;
 
     }
 
@@ -87,10 +86,11 @@
         display: block;
         font-family: inherit;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--fontcolor-main);
+        margin-bottom: 10px;
     }
 
     .svg-site-nav {
@@ -144,6 +144,10 @@
     }
 
     .header-item:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    .header-item__adress {
         margin-right: 50px;
     }
 

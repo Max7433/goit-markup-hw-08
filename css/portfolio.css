@@ -51,6 +51,10 @@ section {
   padding-bottom: 94px;
 }
 
+* {
+  outline: solid 1px tomato;
+}
+
 /* div container styles */
 .container {
   width: 100%;
@@ -264,8 +268,7 @@ section {
   }
   .header-list__adress {
     margin-left: 44px;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding-top: 21px;
   }
   .header-item__link {
     position: relative;
@@ -304,10 +307,11 @@ section {
     display: block;
     font-family: inherit;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--fontcolor-main);
+    margin-bottom: 10px;
   }
   .svg-site-nav {
     fill: #757575;
@@ -369,6 +373,9 @@ section {
     margin-right: 93px;
   }
   .header-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .header-item__adress {
     margin-right: 50px;
   }
   .header-list__adress {
