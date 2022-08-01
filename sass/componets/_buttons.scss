@@ -33,7 +33,7 @@
     margin-left: 0%;
     margin-right: 0%;
     top: 451px;
-    left: 124px;
+    left: 90px;
     width: 200px;
     height: 50px;
     background: #2196F3;
@@ -51,18 +51,35 @@
     color: var(--fontcolor);
 }
 
+@media screen and (min-width:1200px) {
+    .btn-form {
+        left: 124px;
+    }
+
+}
+
 /* buttons */
 .work-btn {
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+    justify-self: start;
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
 }
 
+@media screen and (min-width: 1200px) {
+    .work-btn {
+        justify-content: center;
+    }
+}
+
 .work-btn__item:not(:last-child) {
     margin-right: 8px;
+}
+
+.work-btn__item:not(:last-child) {
+    margin-bottom: 15px;
 }
 
 .work-button {
@@ -75,6 +92,7 @@
     border: none;
     border-radius: 4px;
     padding: 6px 22px;
+
 }
 
 .work-button:hover,

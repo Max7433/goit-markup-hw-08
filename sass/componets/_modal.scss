@@ -1,8 +1,8 @@
 .hero-modal {
     position: absolute;
-    top: 93px;
+    top: 0%;
     left: 0%;
-    transform: translate(3%, 0%);
+    transform: translate(3%, 5%);
     max-width: 450px;
     height: 609px;
     padding: 40px;
@@ -59,7 +59,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -70%);
+        transform: translate(-60%, -70%);
         max-width: 528px;
         height: 581px;
     }

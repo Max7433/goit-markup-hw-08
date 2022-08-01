@@ -469,7 +469,7 @@ section {
   margin-left: 0%;
   margin-right: 0%;
   top: 451px;
-  left: 124px;
+  left: 90px;
   width: 200px;
   height: 50px;
   background: #2196F3;
@@ -490,13 +490,16 @@ section {
   color: var(--fontcolor);
 }
 
+@media screen and (min-width: 1200px) {
+  .btn-form {
+    left: 124px;
+  }
+}
 /* buttons */
 .work-btn {
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-self: start;
   margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,8 +508,19 @@ section {
       flex-wrap: wrap;
 }
 
+@media screen and (min-width: 1200px) {
+  .work-btn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .work-btn__item:not(:last-child) {
   margin-right: 8px;
+}
+
+.work-btn__item:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .work-button {
@@ -1064,6 +1078,7 @@ section {
   font-size: 20px;
   line-height: 1.172;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--fontcolor-secondary);
 }
 
@@ -1178,14 +1193,14 @@ section {
 .form-tel-input,
 .form-mail-input {
   padding-left: 42px;
-  width: 448px;
+  min-width: 370px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
 
 .contact-form-field {
-  width: 448px;
+  min-width: 370px;
   height: 120px;
   padding-top: 12px;
   padding-left: 16px;
@@ -1248,7 +1263,7 @@ section {
 }
 
 .form-checkbox-agreement {
-  font-size: 14px;
+  font-size: 11px;
   line-height: 1.7;
 }
 
@@ -1278,6 +1293,33 @@ section {
   position: relative;
 }
 
+.form-svg {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  fill: var(--fontcolor-secondary);
+}
+
+.hero-backdrop {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-name-input,
+.form-tel-input,
+.form-mail-input {
+    padding-left: 42px;
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+  }
+  .contact-form-field {
+    width: 448px;
+  }
+}
 /* form footer */
 .form-footer {
   display: -webkit-box;
