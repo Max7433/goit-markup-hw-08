@@ -153,13 +153,6 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
-  .logo:hover,
-.logo:focus .logo-web:hover,
-.logo-web:focus {
-    color: var(--accent-color);
-    -webkit-transition: color var(--timing);
-    transition: color var(--timing);
-  }
 }
 @media screen and (min-width: 767px) {
   .logo {
@@ -181,13 +174,6 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
-  .logo:hover,
-.logo:focus .logo-web:hover,
-.logo-web:focus {
-    color: var(--accent-color);
-    -webkit-transition: color var(--timing);
-    transition: color var(--timing);
-  }
 }
 @media screen and (min-width: 1200px) {
   .logo {
@@ -207,13 +193,6 @@ section {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.02em;
-  }
-  .logo:hover,
-.logo:focus .logo-web:hover,
-.logo-web:focus {
-    color: var(--accent-color);
-    -webkit-transition: color var(--timing);
-    transition: color var(--timing);
   }
 }
 @media screen and (max-width: 480px) {

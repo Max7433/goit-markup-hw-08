@@ -24,7 +24,6 @@
 }
 
 .logo-web {
-    // display: inline-block;
     color: var(--accent-color);
     font-family: Raleway;
     font-size: 24px;
@@ -62,12 +61,6 @@
         letter-spacing: 0.02em;
     }
 
-    .logo:hover,
-    .logo:focus .logo-web:hover,
-    .logo-web:focus {
-        color: var(--accent-color);
-        transition: color var(--timing);
-    }
 
 }
 
@@ -83,7 +76,6 @@
     }
 
     .logo-web {
-        // display: inline-block;
         color: var(--accent-color);
         font-family: Raleway;
         font-size: 24px;
@@ -92,12 +84,12 @@
         letter-spacing: 0.02em;
     }
 
-    .logo:hover,
-    .logo:focus .logo-web:hover,
-    .logo-web:focus {
-        color: var(--accent-color);
-        transition: color var(--timing);
-    }
+    // .logo:hover,
+    // .logo:focus .logo-web:hover,
+    // .logo-web:focus {
+    //     color: var(--accent-color);
+    //     transition: color var(--timing);
+    // }
 
 
 }
@@ -125,12 +117,12 @@
         letter-spacing: 0.02em;
     }
 
-    .logo:hover,
-    .logo:focus .logo-web:hover,
-    .logo-web:focus {
-        color: var(--accent-color);
-        transition: color var(--timing);
-    }
+    // .logo:hover,
+    // .logo:focus .logo-web:hover,
+    // .logo-web:focus {
+    //     color: var(--accent-color);
+    //     transition: color var(--timing);
+    // }
 
 
 
