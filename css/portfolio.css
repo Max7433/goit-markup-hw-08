@@ -195,8 +195,9 @@ section {
     letter-spacing: 0.02em;
   }
 }
-@media screen and (max-width: 480px) {
-  .header-list__adress .header-list {
+@media screen and (max-width: 767px) {
+  .header-list,
+.header-list__adress {
     display: none;
   }
 }
@@ -238,12 +239,12 @@ section {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .header-item:not(:last-child) {
-    margin-right: 50px;
-  }
   .header-list__adress {
     margin-left: 44px;
     padding-top: 21px;
+  }
+  .header-item:not(:last-child) {
+    margin-right: 50px;
   }
   .header-item__link {
     position: relative;
