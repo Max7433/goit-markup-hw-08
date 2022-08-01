@@ -511,8 +511,8 @@ section {
   position: absolute;
   top: 0%;
   left: 0%;
-  -webkit-transform: translate(3%, 5%);
-          transform: translate(3%, 5%);
+  -webkit-transform: translate(5%, 16%);
+          transform: translate(5%, 16%);
   max-width: 450px;
   height: 609px;
   padding: 40px;
@@ -578,8 +578,8 @@ section {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-60%, -70%);
-            transform: translate(-60%, -70%);
+    -webkit-transform: translate(-120%, -70%);
+            transform: translate(-120%, -70%);
     max-width: 528px;
     height: 581px;
   }
