@@ -1,10 +1,10 @@
 .hero-modal {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    width: 528px;
-    height: 581px;
+    top: 93px;
+    left: 15px;
+    transform: translate(0%, 0%);
+    max-width: 450px;
+    height: 609px;
     padding: 40px;
     background-color: var(--backgroundcolor-header);
     border-radius: 4px;
@@ -45,3 +45,71 @@
     fill: #2196F3;
     transition: fill var(--timing);
 }
+
+@media screen and (min-width:767px) {
+    .hero-modal {
+        left: 159px;
+        top: 208px;
+        transform: translate(0%, -20%);
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .hero-modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        max-width: 528px;
+        height: 581px;
+    }
+}
+
+
+// .hero-modal {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -70%);
+//     width: 528px;
+//     height: 581px;
+//     padding: 40px;
+//     background-color: var(--backgroundcolor-header);
+//     border-radius: 4px;
+//     opacity: 1;
+//     transition: opacity var(--timing), visibility var(--timing);
+//     z-index: 3;
+// }
+
+// .modal-close {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 30px;
+//     height: 30px;
+//     position: absolute;
+//     top: 8px;
+//     right: 8px;
+//     border-radius: 50%;
+//     background-color: transparent;
+//     border: 1px solid #0000001A;
+//     cursor: pointer;
+// }
+
+// .close-icon {
+//     width: 18px;
+//     height: 18px;
+//     fill: solid #000000;
+//     z-index: 5;
+// }
+
+// /* hover focus form */
+// .close-icon:hover {
+//     fill: #2196F3;
+//     transition: fill var(--timing);
+// }
+
+// .modal-close:focus .close-icon {
+//     fill: #2196F3;
+//     transition: fill var(--timing);
+// }
