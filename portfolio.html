@@ -17,32 +17,38 @@
 <body>
     <header class="header">
         <div class="container main-nav">
-            <nav>
+            <nav class="header-nav">
+                <div class="logo-mob-menu">
+                    <span class="header-item-logo"><a class="logo-header" href="./index.html"
+                            aria-label="ссылка на студию"><span class="logo-web">Web</span>Studio</a></span>
+                    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg width="24" height="24" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
                 <ul class="header-list">
-                    <li class="header-item-logo"><a class="logo" href="./index.html" aria-label="ссылка на студию"><span
-                                class="logo-web">Web</span>Studio</a></li>
                     <li class="header-item">
-                        <a class="header-item__link" href="./index.html">Студия</a>
+                        <a class="header-item__link" href="./index.html"><s class="current">Студия</s></a>
                     </li>
-                    <li class="header-item">
-                        <a class="header-item__link" href="./portfolio.html"><span class="current">Портфолио</span></a>
-                    </li>
+                    <li class="header-item"><a class="header-item__link" href="./portfolio.html">Портфолио</a></li>
                     <li class="header-item"><a class="header-item__link" href="">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="header-list__adress">
-                <li class="header-item">
-
-                    <a class="site-nav" href=" mailto:info@devstudio.com"><svg class="svg-site-nav" width="16px"
+                <li class="header-item__adress">
+                    <a class="site-nav" href="mailto:info@devstudio.com"><svg class="svg-site-nav" width="16px"
                             height="12px">
                             <use href="./icon.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li class="header-item">
-                    <a class="site-nav" href="tel:+380961111111"><svg class="svg-site-nav" width="10px" height="16px">
+                <li class="header-item__adress">
+                    <a class="site-nav" href="tel+380961111111"><svg class="svg-site-nav" width="10px" height="16px">
                             <use href="./icon.svg#icon-Vector"></use>
-                        </svg> +38 096 111 11 11</a>
-
+                        </svg>
+                        +38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -224,7 +230,8 @@
                             target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li>
                     <li class="footer-list"><a class="footer-list__nav"
                             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer-list"><a class="footer-list__nav" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <li class="footer-list"><a class="footer-list__nav" href="tel:+380961111111">+38 096 111 11
+                            11</a>
                     </li>
                 </ul>
             </div>
@@ -266,14 +273,18 @@
                 <label class="footer-label">
                     <input class="footer-input" type="email" name="user-name" placeholder="E-mail" />
                 </label>
-                <button class="btn-footer" type="submit"> <span class="btn-title">Подписаться</span> <svg
-                        class="form-svg-footer" width="24" height="24">
+                <button class="btn-footer" type="submit">
+                    <span class="btn-title">Подписаться</span>
+                    <svg class="form-svg-footer" width="24" height="24">
                         <use href="./icon.svg#icon-mail-footer"></use>
                     </svg></button>
             </form>
-
         </div>
     </footer>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
