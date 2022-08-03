@@ -767,7 +767,7 @@ section {
   width: 18px;
   height: 18px;
   fill: solid #000000;
-  z-index: 5;
+  z-index: 10;
 }
 
 /* hover focus form */
@@ -785,10 +785,11 @@ section {
 
 @media screen and (min-width: 767px) {
   .hero-modal {
-    left: 159px;
-    top: 208px;
-    -webkit-transform: translate(0%, -20%);
-            transform: translate(0%, -20%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-120%, -70%);
+            transform: translate(-120%, -70%);
   }
 }
 @media screen and (min-width: 1200px) {
