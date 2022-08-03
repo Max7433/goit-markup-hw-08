@@ -31,6 +31,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -50,6 +52,10 @@ li {
 section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+* {
+  outline: solid 1px tomato;
 }
 
 /* div container styles */
@@ -226,6 +232,7 @@ section {
 }
 
 .mobile-menu__social {
+  max-width: 100%;
   margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;

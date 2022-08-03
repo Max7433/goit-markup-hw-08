@@ -82,7 +82,28 @@
                     <li class="card-link">
                         <a href="">
                             <div class="card__overlay">
-                                <img src="./images/images-portfolio/img.jpeg" alt="ноутбук" width="100%" />
+                                <picture>
+                                    <!-- desktop screen -->
+
+                                    <source media="(min-width: 1200px)"
+                                        srcset="./images/images-portfolio/img-d.jpg 1x, ./images/images-portfolio/img-d@2x-1.jpg 2x"
+                                        type="image/jpg" />
+
+                                    <!-- tablet screen -->
+
+                                    <source media="(min-width: 768px)"
+                                        srcset="./images/images-portfolio/img-t.jpg 1x, ./images/images-portfolio/img-t@2x-1.jpg 2x"
+                                        type="image/jpg" />
+
+                                    <!-- mobile screen -->
+
+                                    <source media="(max-width: 767px)"
+                                        srcset="./images/images-portfolio/img-m.jpg 1x, ./images/images-portfolio/img-m@2x-1.jpg 2x"
+                                        type="image/jpg" />
+
+                                    <img src="./images/images-portfolio/img.jpeg" alt="ноутбук" width="450"
+                                        height="294" />
+                                </picture>
                                 <div class="overlay__text">Ресурс предлагает комплексные предложения с разным уровнем
                                     функционала и сервисов. Все это позволит посетителю получить исчерпывающие
                                     сведения

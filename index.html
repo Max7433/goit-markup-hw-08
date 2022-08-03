@@ -190,17 +190,31 @@
                 <h2 class="doing__title">Чем мы занимаемся</h2>
                 <ul class="doing__list">
                     <li class="doing__item" lang="ru">
-                        <img src="./images/img-a.jpeg" alt="планшет и клавиатура" width="370" />
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/doing/img-a.jpg 1x, ./images/doing/img-a@2x.jpg 2x" type="image/jpg" />
+                            <img src="./images/doing/img-a.jpeg" alt="планшет и клавиатура" height="294" width="370" />
+                        </picture>
                         <div class="overlay">
                             <p class="overlay__item">Десктопные приложения</p>
                         </div>
                     </li>
-                    <li class="doing__item"><img src="./images/img-b.jpeg" alt="ноутбук и телефон" width="370" />
+                    <li class="doing__item">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/doing/img-b.jpg 1x, ./images/doing/img-b@2x.jpg 2x" type="image/jpg" />
+                            <img src="./images/doing/img-b.jpeg" alt="ноутбук и телефон" height="294" width="370" />
+                        </picture>
                         <div class="overlay">
                             <p class="overlay__item">Мобильные приложения</p>
                         </div>
                     </li>
-                    <li class="doing__item"><img src="./images/img-c.jpeg" alt="планшет с рисунком" width="370" />
+                    <li class="doing__item">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/doing/img-c.jpg 1x, ./images/doing/img-c@2x.jpg 2x" type="image/jpg" />
+                            <img src="./images/doing/img-c.jpeg" alt="планшет с рисунком" height="294" width="370" />
+                        </picture>
                         <div class="overlay">
                             <p class="overlay__item">Дизайнерские решения</p>
                         </div>
@@ -215,7 +229,27 @@
                 <ul class="team__list">
                     <li class="team__list-card">
                         <div class="team__article">
-                            <img src="./images/igor.jpeg" alt="Игорь Демьяненко" width="100%" />
+                            <picture>
+                                <!-- desktop screen -->
+
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/team/igor-d.jpg 1x, ./images/team/igor-d@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <!-- tablet screen -->
+
+                                <source media="(min-width: 768px)"
+                                    srcset="../images/team/igor-t.jpg 1x, ./images/team/igor-t@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <!-- mobile screen -->
+
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/team/igor-m.jpg 1x, ./images/team/igor-m@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img src="./images/team/igor.jpeg" alt="Игорь Демьяненко" width="450" height="460" />
+                            </picture>
                             <h3 class="team__article-head">Игорь Демьяненко</h3>
                             <p class="team__article-skill">Product Designer</p>
                             <ul class="social">
@@ -252,7 +286,28 @@
                     </li>
                     <li class="team__list-card">
                         <div class="team__article">
-                            <img src="./images/olga.jpeg" alt="Ольга Репина" width="100%" />
+
+                            <picture>
+                                <!-- desktop screen -->
+
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/team/olga-d.jpg 1x, ./images/team/olga-d@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <!-- tablet screen -->
+
+                                <source media="(min-width: 768px)"
+                                    srcset="../images/team/olga-t.jpg 1x, ./images/team/olga-t@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <!-- mobile screen -->
+
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/team/olga-m.jpg 1x, ./images/team/olga-m@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img src="./images/team/olga.jpeg" alt="Ольга Репина" width="450" height="460" />
+                            </picture>
                             <h3 class="team__article-head">Ольга Репина</h3>
                             <p class="team__article-skill">Frontend Developer</p>
                             <ul class="social">
@@ -289,7 +344,28 @@
                     </li>
                     <li class="team__list-card">
                         <div class="team__article">
-                            <img src="./images/nikolay.jpeg" alt="Николай Тарасов" width="100%" />
+                            <picture>
+                                <!-- desktop screen -->
+
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/team/nikolay-d.jpg 1x, ./images/team/nikolay-d@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <!-- tablet screen -->
+
+                                <source media="(min-width: 768px)"
+                                    srcset="../images/team/nikolay-t.jpg 1x, ./images/team/nikolay-t@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <!-- mobile screen -->
+
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/team/nikolay-m.jpg 1x, ./images/team/nikolay-m@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img src="./images/team/nikolay.jpeg" alt="Николай Тарасов" width="450" height="460" />
+                            </picture>
+
                             <h3 class="team__article-head">Николай Тарасов</h3>
                             <p class="team__article-skill">Marketing</p>
                             <ul class="social">
@@ -326,7 +402,28 @@
                     </li>
                     <li class="team__list-card">
                         <div class="team__article">
-                            <img src="./images/mixail.jpeg" alt="Михаил Ермаков" width="100%" />
+                            <picture>
+                                <!-- desktop screen -->
+
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/team/mixail-d.jpg 1x, ./images/team/mixail-d@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <!-- tablet screen -->
+
+                                <source media="(min-width: 768px)"
+                                    srcset="../images/team/mixail-t.jpg 1x, ./images/team/mixail-t@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <!-- mobile screen -->
+
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/team/mixail-m.jpg 1x, ./images/team/mixail-m@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img src="./images/team/mixail.jpeg" alt="Михаил Ермаков" width="450" height="460" />
+                            </picture>
+
                             <h3 class="team__article-head">Михаил Ермаков</h3>
                             <p class="team__article-skill">UI Designer</p>
                             <ul class="social">

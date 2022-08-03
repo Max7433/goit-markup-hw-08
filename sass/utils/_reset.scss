@@ -18,6 +18,8 @@ p {
 
 img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 a {
@@ -39,9 +41,9 @@ section {
 	padding-bottom: 94px;
 }
 
-// * {
-// 	outline: solid 1px tomato;
-// }
+* {
+	outline: solid 1px tomato;
+}
 
 
 /* div container styles */
