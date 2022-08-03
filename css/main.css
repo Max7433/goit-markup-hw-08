@@ -54,10 +54,6 @@ section {
   padding-bottom: 94px;
 }
 
-* {
-  outline: solid 1px tomato;
-}
-
 /* div container styles */
 .container {
   width: 100%;
@@ -1277,6 +1273,13 @@ section {
       flex-wrap: wrap;
 }
 
+@media screen and (min-width: 767px) {
+  .work-btn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .work-btn {
     -webkit-box-pack: center;

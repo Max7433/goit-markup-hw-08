@@ -68,6 +68,12 @@
     flex-wrap: wrap;
 }
 
+@media screen and (min-width: 767px) {
+    .work-btn {
+        justify-content: center;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .work-btn {
         justify-content: center;
