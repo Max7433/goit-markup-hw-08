@@ -845,13 +845,8 @@ section {
     margin-right: auto;
   }
   .card-link {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     background-color: var(--backgroundcolor-header);
-    width: 370px;
     margin-bottom: 30px;
-    margin-right: 30px;
   }
   .card-link:hover,
 .card-link:focus {
